@@ -8,7 +8,7 @@ public class LeapYear_class {
 		System.out.println("What is the year?");
 		int year = in.nextInt();
 		boolean leapYear = (((( year % 4 ) == 0) && (year % 100 != 0)) || (( year % 400 ) == 0));
-		System.out.println(year + "is a leap year: " + leapYear);
+		System.out.println(year + " is a leap year: " + leapYear);
 	}
 
 }
